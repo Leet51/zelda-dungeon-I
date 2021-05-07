@@ -1,0 +1,5 @@
+info.setScore(0)
+let mySprite = sprites.create(assets.image`Link`, SpriteKind.Player)
+controller.moveSprite(mySprite, 100, 100)
+scene.setBackgroundColor(15)
+tiles.setTilemap(tilemap`Dungeon`)
